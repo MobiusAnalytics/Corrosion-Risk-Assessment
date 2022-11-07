@@ -13,7 +13,7 @@ import streamlit_authenticator as stauth
 
 names = ["Maria Jasmine"]
 
-usernames = ["Maria_Mobius_DA"]
+usernames = ["mobius_data_analytics"]
 file_path = Path(__file__).parent / "hashed_pw.pkl"
 with file_path.open("rb") as file:
     hashed_password = pickle.load(file)
