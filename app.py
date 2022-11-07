@@ -46,7 +46,7 @@ def main():
 	"""
 	  
 	# display the front end aspect
-	authenticator.logout("Logout","main")
+	
 	st.markdown(html_temp, unsafe_allow_html = True)
 	st.image("""https://images.pond5.com/pipeline-footage-014137884_prevstill.jpeg""")
 	 
