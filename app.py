@@ -72,20 +72,15 @@ if authetication_status:
           
       
     # this is the main function in which we define our webpage  
-    def main(): 
-        
-        global Pipe
-
-        
-        
+    def main():         
+        global Pipe       
         html_temp = """ 
         <h1 style ="color:black;text-align:center;">Corrosion Risk Assessment</h1> 
-        """
-          
+        """          
         # display the front end aspect
         authenticator.logout("Logout",'sidebar')
         st.markdown(html_temp, unsafe_allow_html = True)
-        st.image("""https://images.pond5.com/pipeline-footage-014137884_prevstill.jpeg""")
+        st.image("""https://www.indexventures.com/media/images/plumbing_pqi8uas.2e16d0ba.fill-1200x630.jpg""")
 
         tab1,tab2 = st.tabs(["Select Pipelines", "Predict Corrosion Risk"])
         with tab1:
