@@ -108,7 +108,7 @@ if authetication_status:
             if st.button("PREDICT"): 
                 result = prediction(CA, PS, SO, TM, pH, PCO2, HCO3,FE)   
 
-               st.markdown('<p color:black; text-align:center;font-size: 20px; Computed Defect Depth in mm = {} </p>'.format(result[0]))
+                st.markdown('<p color:black; text-align:center;font-size: 20px; Computed Defect Depth in mm = {} </p>'.format(result[0]))
                 if result <0.13: 
                     low = '<p style="font-family:sans-serif; color:green; font-size: 30px;"><b>LOW RISK</b></p>'
                     st.markdown(low,unsafe_allow_html=True)
