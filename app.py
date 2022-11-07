@@ -73,7 +73,7 @@ def main():
 		if st.button("PREDICT"): 
 			result = prediction(CA, PS, SO, TM, pH, PCO2, HCO3,FE)   
 
-			st.markdown('<p style="font-family:sans-serif; color:black;text-align:center; font-size: 20px;"><b>"Computed Defect Depth in mm {}</b></p>'.format(result),unsafe_allow_html = True)
+			st.markdown('<p style="font-family:sans-serif; color:black;text-align:center; font-size: 17px;"><b>"Computed Defect Depth in mm {}</b></p>'.format(result[0]),unsafe_allow_html = True)
 			if result <0.13: 
 				low = '<p style="font-family:sans-serif; text-align:center;color:green; font-size: 30px;"><b>LOW RISK</b></p>'
 				st.markdown(low,unsafe_allow_html=True)
