@@ -110,13 +110,13 @@ if authetication_status:
 
                 st.markdown('<p style="font-family:sans-serif; color:black;text-align:center; font-size: 20px;"><b>Computed Defect Depth in mm {}</b></p>'.format(result),unsafe_allow_html = True)
                 if result <0.13: 
-                    low = '<p style="font-family:sans-serif; color:green; font-size: 30px;"><b>LOW RISK</b></p>'
+                    low = '<p style="font-family:sans-serif; color:green;text-align:center; font-size: 30px;"><b>LOW RISK</b></p>'
                     st.markdown(low,unsafe_allow_html=True)
                     #st.image("""https://cdn.vectorstock.com/i/1000x1000/39/34/low-risk-speedometer-concept-vector-32333934.webp""",width=200)
                 elif (result >0.13) & (result < 0.25):
                     st.image("""medium.png""",width=200)
                 else:
-                    high = '<p style="font-family:sans-serif; color:red; font-size: 30px;"><b>HIGH RISK</b></p>'
+                    high = '<p style="font-family:sans-serif; color:red; text-align:center;font-size: 30px;"><b>HIGH RISK</b></p>'
                     st.markdown(high,unsafe_allow_html=True)  
                     #st.image("""https://cdn.vectorstock.com/i/1000x1000/87/92/speedometer-with-low-medium-high-risk-concept-vector-32318792.webp""",width=200)
         
