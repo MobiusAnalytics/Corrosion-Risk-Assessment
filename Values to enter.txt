@@ -1,0 +1,24 @@
+Corrosion Risk Assessment - Defect Depth Prediction
+
+
+Parameter values:
+
+Corrosion Risk: Low
+CA	0.043
+PS	358.227
+SO	6.553
+TM	27.945
+pH	8.005
+PCO2	0.098
+HCO3	3561.551
+FE	2.429
+
+Corrosion Risk: High
+CA	2.42
+PS	1846.91
+SO	42.955
+TM	54.004
+pH	6.653
+PCO2	0.517
+HCO3	581.18
+FE	0.18
